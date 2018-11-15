@@ -50,7 +50,7 @@ ldap_user_gid_number = {{ system_ldap_user_gid_number }}
 ldap_group_gid_number = {{ system_ldap_group_gid_number }}
 ldap_pwd_policy = {{ system_ldap_pwd_policy }}
 default_shell = /bin/bash
-override_homedir = /home/%u
+override_homedir = {{ system_ldap_override_homedir }}
 
 krb5_realm = {{ system_ldap_krb5_realm | default(system_ldap_domain, true) }}
 

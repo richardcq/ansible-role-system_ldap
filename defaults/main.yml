@@ -31,3 +31,4 @@ system_ldap_user_uid_number: uidNumber
 system_ldap_user_gid_number: gidNumber
 system_ldap_group_gid_number: gidNumber
 system_ldap_pwd_policy: none
+system_ldap_override_homedir: /home/%u
